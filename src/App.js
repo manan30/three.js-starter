@@ -1,16 +1,13 @@
 import React from 'react';
 import Shape from './components/Shape';
 
-import GlobalStyle, { Canvas } from './GlobalStyles';
+import { Canvas } from './GlobalStyles';
 
 function App() {
   return (
-    <>
-      <GlobalStyle />
-      <Canvas>
-        <Shape />
-      </Canvas>
-    </>
+    <Canvas>
+      <Shape />
+    </Canvas>
   );
 }
 
